@@ -1,6 +1,6 @@
 version: "0.1.0"
 pre_ci_boot:
- image: 10.0.0.4:5000/compile
+ image: 10.29.0.5:5000/shares/compile:latest
  tag: "latest"
 ci:
  - mvn package
