@@ -1,6 +1,6 @@
-FROM 10.0.0.4:5000/tomcat
+FROM 10.29.0.5:5000/shares/tomcat:8.5.29-jre8
 
-ADD docker-demo.war /usr/local/apache-tomcat-6.0.45/webapps/
+ADD docker-demo.war /usr/local/tomcat/webapps/
 
 ### run ###
 EXPOSE 8080
